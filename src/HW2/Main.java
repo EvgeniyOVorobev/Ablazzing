@@ -12,12 +12,12 @@ public class Main {
         System.out.println(f.repeat(3));
         //
         for (int i = 1; i <= 100; i++) {
-            System.out.print(i+"a ");
+            System.out.print(i + "a ");
         }
         //
         System.out.println();
-        Dog dog=new Dog("Sharik",14);
-        Cat cat=new Cat("Mur",7);
+        Dog dog = new Dog("Sharik", 14);
+        Cat cat = new Cat("Mur", 7);
         //
         double increment = 0.01123;
         double result = 0;
@@ -34,8 +34,8 @@ public class Main {
         //
         int[] arr = {1, 1, 1, 1, 1};
         for (int i = 0; i < arr.length; i++) {
-            if(i%2==0){
-                arr[i]=0;
+            if (i % 2 == 0) {
+                arr[i] = 0;
             }
         }
         System.out.println(Arrays.toString(arr));
