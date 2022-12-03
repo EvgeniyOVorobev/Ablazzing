@@ -8,6 +8,7 @@ import HW3.z2.Car2;
 import HW3.z3.*;
 import HW3.z4.Warehouse;
 import HW3.z4.Worker;
+import HW3.z5.Human;
 
 public class Main {
 
@@ -43,6 +44,11 @@ public class Main {
         worker1.work(warehouse);
         worker2.work(warehouse);
         System.out.println(warehouse.getVodka());
+        //
+        Human human=new Human();
+        Human.HumanBuilder humanBuilder=new Human.HumanBuilder();
+        Human tom = humanBuilder.age(22).weight(77).name("Tom").build();
+        tom.info();
 
 
     }
