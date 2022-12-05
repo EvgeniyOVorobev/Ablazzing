@@ -12,25 +12,16 @@ public class Main {
         Plane plane1 = new Plane(-1);
         Duck duck = new Duck();
         Duck duck1 = new Duck(true);
-        CanFly[] canfle = {plane1, plane, duck1, duck};
-        for (CanFly i : canfle
+        CanFly[] canfly = {plane1, plane, duck1, duck};
+        for (CanFly i : canfly
         ) {
             i.fly();
         }
         System.out.println();
         //
-
-
-        Brand[] brands={new Shop(false),new Shop(true)};
-
-
-
-
-
-
-
-
-
+        Brand[] brands = {new Shop(false), new Shop(true)};
+        System.out.println();
+        //
 
 
 

@@ -11,14 +11,14 @@ public class Shop implements Brand {
 
     }
 
-    public static class Worker {
+    public  class Worker {
         public Worker(boolean tick) {
             Shop.Worker.Watch watch = new Watch(tick);
             watch.ticktack();
         }
 
 
-        public static class Watch {
+        public  class Watch {
             public boolean tick;
 
             public Watch(boolean tick) {
