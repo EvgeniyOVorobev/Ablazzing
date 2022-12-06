@@ -5,6 +5,8 @@ import HW4.z1.Duck;
 import HW4.z1.Plane;
 import HW4.z2.Brand;
 import HW4.z2.Shop;
+import HW4.z3.Car;
+import HW4.z3.CarShop;
 
 public class Main {
     public static void main(String[] args) {
@@ -22,7 +24,10 @@ public class Main {
         Brand[] brands = {new Shop(false), new Shop(true)};
         System.out.println();
         //
-
+        CarShop carShop = new CarShop(new Car(5000));
+        CarShop carShop1 = new CarShop(new Car(-5));
+        carShop.showPrice();
+        carShop1.showPrice();
 
 
     }
